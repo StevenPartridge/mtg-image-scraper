@@ -1,0 +1,24 @@
+{
+  "name": "mtgimagescraper",
+  "version": "1.0.0",
+  "description": "",
+  "module": "CommonJS",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "nodemon ./src/main.ts",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs-extra": "^10.1.0",
+    "node-fetch": "^3.2.10",
+    "sanitize-filename": "^1.6.3"
+  }
+}
